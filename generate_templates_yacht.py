@@ -166,8 +166,7 @@ def set_project_volumes(project_name,row):
 def get_project_vars(project_name):
     project_vars = init_vars.copy()
 
-    vars_url = "https://raw.githubusercontent.com/linuxserver/docker-{}/master/readme-vars.yml".format(
-        project_name)
+    vars_url = "https://raw.githubusercontent.com/linuxserver/docker-{}/master/readme-vars.yml".format(project_name)
     response = requests.get(vars_url)
     project_vars.update(yaml.load(response.text, Loader=yaml.FullLoader))
 
@@ -197,12 +196,12 @@ def get_project_vars(project_name):
         for row in project_vars["param_volumes"]:
             if f"{row['vol_path']}" not in EXC_PARAM_VOL:
                 row = set_project_volumes(project_vars["project_name"],row)
-                print(f"{project_vars['project_name']}: volume: {row}")
+                #print(f"{project_vars['project_name']}: volume: {row}")
     if project_vars["opt_param_usage_include_vols"]:
         for row in project_vars["opt_param_volumes"]:
             if f"{row['vol_path']}" not in EXC_PARAM_VOL:
                 row = set_project_volumes(project_vars["project_name"],row)
-                print(f"{project_vars['project_name']}: opt volume: {row}")
+                #print(f"{project_vars['project_name']}: opt volume: {row}")
 
     for row in project_vars["param_env_vars"]:
         if row["env_var"] == "TZ":
@@ -247,8 +246,9 @@ project_list = list(
     filter(lambda project: project["deprecated"] == False, project_list))
 ## Testing: filter single project
 #project_list = list(
-#    filter(lambda project: project["name"] == "duckdns", project_list))
+#    filter(lambda project: project["name"] == "wireguard", project_list))
 
+for p in project_list: del p['category']
 
 projects = {
     "projects": project_list
@@ -271,3 +271,8 @@ out_filename = "templates-yacht.json"
 templates_yacht = json.dumps(templates_v2["templates"], indent=2)
 with open(out_filename, "w") as out_file:
     out_file.write(templates_yacht)
+
+# check valid json
+with open(out_filename) as in_file:
+    templates_yacht_lint = json.load(in_file)
+

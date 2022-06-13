@@ -119,9 +119,6 @@
     "name": "Apprise-api",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/apprise-api/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Apprise-api](https://github.com/caronc/apprise-api) Takes advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API. * Send notifications to more then 65+ services. * An incredibly lightweight gateway to Apprise. * A production ready micro-service at your disposal. Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.",
-    "categories": [
-      "Notifications"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png",
     "image": "linuxserver/apprise-api:latest",
@@ -248,9 +245,6 @@
     "name": "Bazarr",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/bazarr/config<br>mkdir -p /volume1/docker/bazarr/movies<br>mkdir -p /volume1/docker/bazarr/tv</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Bazarr](https://www.bazarr.media/) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png",
     "image": "linuxserver/bazarr:latest",
@@ -299,9 +293,6 @@
     "name": "Beets",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/beets/config<br>mkdir -p /volume1/docker/beets/music<br>mkdir -p /volume1/docker/beets/downloads</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Beets](http://beets.io/) is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png",
     "image": "linuxserver/beets:latest",
@@ -402,9 +393,6 @@
     "name": "Boinc",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/boinc/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[BOINC](https://boinc.berkeley.edu/) is a platform for high-throughput computing on a large scale (thousands or millions of computers). It can be used for volunteer computing (using consumer devices) or grid computing (using organizational resources). It supports virtualized, parallel, and GPU-based applications.",
-    "categories": [
-      "Research"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg",
     "image": "linuxserver/boinc:latest",
@@ -451,9 +439,6 @@
     "name": "Booksonic",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/booksonic/config<br>mkdir -p /volume1/docker/booksonic/audiobooks<br>mkdir -p /volume1/docker/booksonic/podcasts<br>mkdir -p /volume1/docker/booksonic/othermedia</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Booksonic](http://booksonic.org) is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic.png",
     "image": "linuxserver/booksonic:latest",
@@ -512,9 +497,6 @@
     "name": "Booksonic-air",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/booksonic-air/config<br>mkdir -p /volume1/docker/booksonic-air/audiobooks<br>mkdir -p /volume1/docker/booksonic-air/podcasts<br>mkdir -p /volume1/docker/booksonic-air/othermedia</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Booksonic-air](http://booksonic.org) is a platform for accessing the audiobooks you own wherever you are. At the moment the platform consists of: * Booksonic Air - A server for streaming your audiobooks, successor to the original Booksonic server and based on Airsonic. * Booksonic App - An DSub based Android app for connection to Booksonic-Air servers.",
-    "categories": [
-      "Audio"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png",
     "image": "linuxserver/booksonic-air:latest",
@@ -573,9 +555,6 @@
     "name": "Bookstack",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/bookstack/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Bookstack](https://github.com/BookStackApp/BookStack) is a free and open source Wiki designed for creating beautiful documentation. Featuring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Powered by SQL and including a Markdown editor for those who prefer it, BookStack is geared towards making documentation more of a pleasure than a chore. For more information on BookStack visit their website and check it out: https://www.bookstackapp.com",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/bookstack-logo500x500.png",
     "image": "linuxserver/bookstack:latest",
@@ -681,9 +660,6 @@
     "name": "Calibre",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/calibre/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it\u2019s outstanding and a must-have. It\u2019ll allow you to do nearly everything and it takes things a step beyond normal e-book software. It\u2019s also completely free and open source and great for both casual users and computer experts.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png",
     "image": "linuxserver/calibre:latest",
@@ -737,9 +713,6 @@
     "name": "Calibre-web",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/calibre-web/config<br>mkdir -p /volume1/docker/calibre-web/books</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Calibre-web](https://github.com/janeczku/calibre-web) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself. This software is a fork of library and licensed under the GPL v3 License.",
-    "categories": [
-      "Books"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png",
     "image": "linuxserver/calibre-web:latest",
@@ -796,9 +769,6 @@
     "name": "Chevereto",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/chevereto/config<br>mkdir -p /volume1/docker/chevereto/data</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Chevereto](https://github.com/rodber/chevereto-free) is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server. It's your hosting and your rules, so say goodbye to closures and restrictions.",
-    "categories": [
-      "Websites"
-    ],
     "platform": "linux",
     "logo": "",
     "image": "linuxserver/chevereto:latest",
@@ -844,9 +814,6 @@
     "name": "Cloud9",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/cloud9/config<br>mkdir -p /volume1/docker/cloud9/code<br></p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Cloud9](https://github.com/c9/core) Cloud9 is a complete web based IDE with terminal access. This container is for running their core SDK locally and developing plugins.",
-    "categories": [
-      "Development"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9.png",
     "image": "linuxserver/cloud9:latest",
@@ -913,9 +880,6 @@
     "name": "Code-server",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/code-server/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Code-server](https://coder.com) is VS Code running on a remote server, accessible through the browser. - Code on your Chromebook, tablet, and laptop with a consistent dev environment. - If you have a Windows or Mac workstation, more easily develop for Linux. - Take advantage of large cloud servers to speed up tests, compilations, downloads, and more. - Preserve battery life when you're on the go. - All intensive computation runs on your server. - You're no longer running excess instances of Chrome.",
-    "categories": [
-      "Development"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png",
     "image": "linuxserver/code-server:latest",
@@ -992,9 +956,6 @@
     "name": "Cops",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/cops/config<br>mkdir -p /volume1/docker/cops/books</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Cops](http://blog.slucas.fr/en/oss/calibre-opds-php-server) by S\u00e9bastien Lucas, stands for Calibre OPDS (and HTML) Php Server. COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Changes in your Calibre library are reflected immediately in your COPS pages. See : [COPS's home](http://blog.slucas.fr/en/oss/calibre-opds-php-server) for more details. Don't forget to check the [Wiki](https://github.com/seblucas/cops/wiki). ## Why? (taken from the author's site) In my opinion Calibre is a marvelous tool but is too big and has too much dependencies to be used for its content server. That's the main reason why I coded this OPDS server. I needed a simple tool to be installed on a small server (Seagate Dockstar in my case). I initially thought of Calibre2OPDS but as it generate static file no search was possible. Later I added an simple HTML catalog that should be usable on my Kobo. So COPS's main advantages are : * No need for many dependencies. * No need for a lot of CPU or RAM. * Not much code. * Search is available. * With Dropbox / owncloud it's very easy to have an up to date OPDS server. * It was fun to code. If you want to use the OPDS feed don't forget to specify feed.php at the end of your URL.",
-    "categories": [
-      "Books"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png",
     "image": "linuxserver/cops:latest",
@@ -1039,9 +1000,6 @@
     "name": "Daapd",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/daapd/config<br>mkdir -p /volume1/docker/daapd/music</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Daapd](https://owntone.github.io/owntone-server/) (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), Chromecast, MPD and internet radio.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-git.png",
     "image": "linuxserver/daapd:latest",
@@ -1084,9 +1042,6 @@
     "name": "Darktable",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/darktable/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[darktable](https://www.darktable.org/) is an open source photography workflow application and raw developer. A virtual lighttable and darkroom for photographers. It manages your digital negatives in a database, lets you view them through a zoomable lighttable and enables you to develop raw images and enhance them.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png",
     "image": "linuxserver/darktable:latest",
@@ -1127,9 +1082,6 @@
     "name": "Davos",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/davos/config<br>mkdir -p /volume1/docker/davos/download</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Davos](https://github.com/linuxserver/davos) is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG",
     "image": "linuxserver/davos:latest",
@@ -1174,9 +1126,6 @@
     "name": "Ddclient",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ddclient/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Ddclient](https://github.com/ddclient/ddclient) is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.",
-    "categories": [
-      "Networking"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png",
     "image": "linuxserver/ddclient:latest",
@@ -1214,9 +1163,6 @@
     "name": "Deluge",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/deluge/config<br>mkdir -p /volume1/docker/deluge/downloads</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Deluge](http://deluge-torrent.org/) is a lightweight, Free Software, cross-platform BitTorrent client. * Full Encryption * WebUI * Plugin System * Much more...",
-    "categories": [
-      "File Management"
-    ],
     "platform": "linux",
     "logo": "https://avatars2.githubusercontent.com/u/6733935?v=3&s=200",
     "image": "linuxserver/deluge:latest",
@@ -1269,9 +1215,6 @@
     "name": "Digikam",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/digikam/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[digiKam](https://www.digikam.org/): Professional Photo Management with the Power of Open Source",
-    "categories": [
-      "Photography"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png",
     "image": "linuxserver/digikam:latest",
@@ -1325,9 +1268,6 @@
     "name": "Dillinger",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/dillinger/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Dillinger](https://github.com/joemccann/dillinger) is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.",
-    "categories": [
-      "Development"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png",
     "image": "linuxserver/dillinger:latest",
@@ -1368,9 +1308,6 @@
     "name": "Diskover",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/diskover/config<br>mkdir -p /volume1/docker/diskover/data</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Diskover](https://github.com/diskoverdata/diskover-community) is an open source file system indexer that uses Elasticsearch to index and manage data across heterogeneous storage systems.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png",
     "image": "linuxserver/diskover:latest",
@@ -1479,9 +1416,6 @@
     "name": "Dokuwiki",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/dokuwiki/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Dokuwiki](https://www.dokuwiki.org/dokuwiki/) is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png",
     "image": "linuxserver/dokuwiki:latest",
@@ -1523,9 +1457,6 @@
     "name": "Domoticz",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/domoticz/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Domoticz](https://www.domoticz.com) is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.",
-    "categories": [
-      "Automation"
-    ],
     "platform": "linux",
     "logo": "https://github.com/domoticz/domoticz/raw/master/www/images/logo.png",
     "image": "linuxserver/domoticz:latest",
@@ -1725,9 +1656,6 @@
     "name": "Doublecommander",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/doublecommander/config<br>mkdir -p /volume1/docker/doublecommander/data</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Double Commander](https://doublecmd.sourceforge.io/) is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.",
-    "categories": [
-      "File Management"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png",
     "image": "linuxserver/doublecommander:latest",
@@ -1881,9 +1809,6 @@
     "name": "Emby",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/emby/config<br>mkdir -p /volume1/docker/emby/data/tvshows<br>mkdir -p /volume1/docker/emby/data/movies<br></p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Emby](https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
-    "categories": [
-      "Home Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png",
     "image": "linuxserver/emby:latest",
@@ -2364,9 +2289,6 @@
     "name": "Grav",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/grav/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Grav](https://github.com/getgrav/grav/) is a Fast, Simple, and Flexible, file-based Web-platform.",
-    "categories": [
-      "Web Platform"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png",
     "image": "linuxserver/grav:latest",
@@ -2680,9 +2602,6 @@
     "name": "Hedgedoc",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/hedgedoc/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[HedgeDoc](https://hedgedoc.org/) gives you access to all your files wherever you are. HedgeDoc is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.",
-    "categories": [
-      "Documentation"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png",
     "image": "linuxserver/hedgedoc:latest",
@@ -2818,9 +2737,6 @@
     "name": "Homeassistant",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/homeassistant/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Home Assistant Core](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.",
-    "categories": [
-      "Home Automation"
-    ],
     "platform": "linux",
     "logo": "https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png",
     "image": "linuxserver/homeassistant:latest",
@@ -2902,9 +2818,6 @@
     "name": "Ipfs",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/ipfs/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Ipfs](https://ipfs.io/) - A peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open.",
-    "categories": [
-      "P2P"
-    ],
     "platform": "linux",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-1024-ice-text.png/480px-Ipfs-logo-1024-ice-text.png",
     "image": "linuxserver/ipfs:latest",
@@ -3301,9 +3214,6 @@
     "name": "Libreoffice",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/libreoffice/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[LibreOffice](https://www.libreoffice.org/) is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png",
     "image": "linuxserver/libreoffice:latest",
@@ -4803,9 +4713,6 @@
     "name": "Overseerr",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/overseerr/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Overseerr](https://overseerr.dev/) is a request management and media discovery tool built to work with your existing Plex ecosystem.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png",
     "image": "linuxserver/overseerr:latest",
@@ -5044,9 +4951,6 @@
     "name": "Phpmyadmin",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/phpmyadmin/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Phpmyadmin](https://github.com/phpmyadmin/phpmyadmin/) is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.",
-    "categories": [
-      "System Tools"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png",
     "image": "linuxserver/phpmyadmin:latest",
@@ -5183,9 +5087,6 @@
     "name": "Pixapop",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/pixapop/config<br>mkdir -p /volume1/docker/pixapop/photos</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Pixapop](https://github.com/bierdok/pixapop) is an open-source single page application to view your photos in the easiest way possible.",
-    "categories": [
-      "Productivity"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pixapop.png",
     "image": "linuxserver/pixapop:latest",
@@ -5294,9 +5195,6 @@
     "name": "Plex-meta-manager",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/plex-meta-manager/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Plex-meta-manager](https://github.com/meisnate12/Plex-Meta-Manager) is a Python 3 script that can be continuously run using YAML configuration files to update on a schedule the metadata of the movies, shows, and collections in your libraries as well as automatically build collections based on various methods all detailed in the wiki.",
-    "categories": [
-      "Media Management"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-meta-manager-banner.png",
     "image": "linuxserver/plex-meta-manager:latest",
@@ -5987,9 +5885,6 @@
     "name": "Requestrr",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/requestrr/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Requestrr](https://github.com/darkalfx/requestrr) is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png",
     "image": "linuxserver/requestrr:latest",
@@ -6488,9 +6383,6 @@
     "name": "Sonarr",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/sonarr/config<br>mkdir -p /volume1/docker/sonarr/tv<br>mkdir -p /volume1/docker/sonarr/downloads</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
-    "categories": [
-      "Media"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png",
     "image": "linuxserver/sonarr:latest",
@@ -6777,9 +6669,6 @@
     "name": "Syslog-ng",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/syslog-ng/config<br></p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[syslog-ng](https://www.syslog-ng.com/products/open-source-log-management/) allows you to flexibly collect, parse, classify, rewrite and correlate logs from across your infrastructure and store or route them to log analysis tools.",
-    "categories": [
-      "System Tools"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png",
     "image": "linuxserver/syslog-ng:latest",
@@ -7122,9 +7011,6 @@
     "name": "Unifi-controller",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/unifi-controller/config</p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "The [Unifi-controller](https://www.ubnt.com/enterprise/#unifi) software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
-    "categories": [
-      "Networking"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png",
     "image": "linuxserver/unifi-controller:latest",
@@ -7220,9 +7106,6 @@
     "name": "Webtop",
     "note": "Yacht App Templates by <a href='https://github.om/silopolis' target='_blank'>silopolis</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /volume1/docker/webtop/config<br></p><p>Also don't forget to define the template variables in Yacht settings.",
     "description": "[Webtop](https://github.com/linuxserver/gclient) - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser.",
-    "categories": [
-      "Utilities"
-    ],
     "platform": "linux",
     "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
     "image": "linuxserver/webtop:latest",
