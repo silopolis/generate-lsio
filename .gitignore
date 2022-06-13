@@ -3,4 +3,7 @@ lsio
 venv
 *.pyc
 *.db
-*.json
+#*.json
+templates-2.0.json
+*.log
+_container*
