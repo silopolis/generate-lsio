@@ -248,7 +248,9 @@ project_list = list(
 #project_list = list(
 #    filter(lambda project: project["name"] == "wireguard", project_list))
 
-for p in project_list: del p['category']
+for p in project_list:
+    if p['category'] in [None, ""]:
+        p['category'] = "FIXME"
 
 projects = {
     "projects": project_list
